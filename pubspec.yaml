@@ -1,0 +1,25 @@
+name: responsi_tpm
+description: "Proyek Responsi TPM Aplikasi Mobile"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Sesuaikan dengan versi SDK Flutter kamu
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  
+  # --- DATABASE HIVE ---
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  # --- GENERATOR UNTUK HIVE ---
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.9
